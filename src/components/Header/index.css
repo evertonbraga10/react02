@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Kaushan+Script&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    width: 250px;
+    height: 100vh;
+    background-image: linear-gradient(to left, #4ec9d9, #59328c, #0D0D0D);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+header .logo{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: transparent;
+    margin-bottom: 26px;
+    -webkit-text-stroke-color: white;
+    -moz-text-stroke-color: white;
+    -ms-text-stroke-color: white;
+    -o-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    -moz-text-stroke-width: 3px;
+    -ms-text-stroke-width: 3px;
+    -o-text-stroke-width: 3px;
+    font-family: 'Bruno Ace SC', cursive;
+  }
+
+header a{
+    display: block;
+    line-height: 40px;
+    padding-left: 16px;
+    color: white;
+    transition-duration: 300ms;
+    border-radius: 5px;
+}
+
+header a:hover{
+    background-image: linear-gradient(to right, #4ec9d9, #59328c);
+    
+}
+
+h6{
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
