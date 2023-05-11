@@ -51,8 +51,8 @@ header a{
 }
 
 header a:hover{
-    background-image: linear-gradient(to right, #4ec9d9, #59328c);
-    
+    /* background-image: linear-gradient(to right, #4ec9d9, #59328c); */
+    background-color: rgba(201, 201, 201, 0.285);
 }
 
 h6{
