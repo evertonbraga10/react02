@@ -14,7 +14,7 @@ const Dashboard = () => {
                     setContador(contador + 1)
                     setVisivel(!visivel)
                 }}
-                >    
+            >    
                 Incrementar{contador}
             </button>
         </>

@@ -12,6 +12,7 @@ main{
   top: 0;
   right: 0;
   padding: 60px;
+  background-color: #ededed;
 }
 
 button{
@@ -29,3 +30,65 @@ button.active{
   background-color: #59328c;
   color: white;
 }
+
+.produtos{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.produtos li{
+  width: calc(25% - 12px);
+}
+
+.produto{
+  background-color: #ffff;
+  border-radius: 8px;
+}
+
+.produto img{
+  height: 250px;
+}
+
+.produto .info{
+  padding: 16px;
+}
+
+.produto .info h3{
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.produto .info h6{
+  line-height: 30px;
+  padding: 0 26px;
+  border-radius: 20px;
+  background-color: #00ffaa;
+  margin-top: 6px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.produto .info .comprar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.produto span{
+  font-size: 18px;
+}
+
+.produto a{
+  display: block;
+  line-height: 46px;
+  background-color: blueviolet;
+  color: #ffff;
+  border-radius: 5px;
+  padding: 0 26px;
+}
+
